@@ -1,5 +1,35 @@
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
     tr {
         width: 399px;
+    }
+    
+    .player-panel {
+        display: flex;
+        font-size: 32px;
+    }
+    
+    .player-panel img {
+        width: 60px;
+        height: 60px;
+        margin-right: 16px;
+    }
+    
+    .player-panel div {
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .player-inactive {
+        opacity: 0.5;
     }
     
     td {
